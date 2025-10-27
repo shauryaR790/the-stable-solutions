@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact-The Stable Solutions</title>
+  <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <!-- <img src="logo.png" alt="logo" class="logo-img"> -->
+      <a href="index.html" class="logo"><span>THE STABLE SOLUTIONS</span></a>
+    </div>
+
+    <div class="hamburger">
+      ☰
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="#product">Product</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#about">Company</a></li>
+      <li><a href="#glance">Glance</a></li>
+      <li><a href="#service">Services</a></li>
+    </ul>
+
+    <div class="nav-buttons">
+      <a href="#about" class="login">ABOUT US</a>
+      <a href="contact.html" class="btn">CONTACT US</a>
+    </div>
+  </nav>
+
+  <div class="contact">
+    <!-- <h1 class="main-text-left">CONNECT </h1>
+    <h1 class="main-text-right">WITH US</h1> -->
+
+    <img src="Screenshot_2025-10-24_111305-removebg-preview.png" class="objcon">
+    <img src="Screenshot_2025-10-24_111323-removebg-preview.png" class="objcon1">
+    <img src="Screenshot_2025-10-24_111258-removebg-preview.png" class="objcon2">
+    <img src="Screenshot_2025-10-24_111314-removebg-preview.png" class="objcon3">
+
+    <section class="contact-info-section">
+      <div class="contact-info-container">
+        <h2>Contact Us</h2>
+        <p>We’d love to connect with you. Reach us through any of the details below.</p>
+
+        <div class="info-item">
+          <h3>Contact Our Business Development Executive.</h3>
+          <p>rshaurya790@gmail.com</p>
+        </div>
+
+        <div class="info-item">
+          <h3>Phone</h3>
+          <p>+91 8849670831</p>
+        </div>
+
+        <div class="info-item">
+          <h3>Origin</h3>
+          <p>Stable Solutions Co.<br>INDIA<br></p>
+        </div>
+
+        <div class="info-item">
+          <h3>Follow Us</h3>
+          <p>
+            <a href="#">Instagram</a> |
+            <a href="#">LinkedIn</a> |
+            <a href="#">Twitter</a>
+          </p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    const navButtons = document.querySelector('.nav-buttons');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+      navButtons.classList.toggle('active');
+    });
+  </script>
+</body>
+
+</html>
