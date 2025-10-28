@@ -25,7 +25,7 @@ body {
   overflow-y: auto;
   /* background: #000; */
   color: #fff;
-  /* background-image: url("pawel-czerwinski-uz4qt7utDD4-unsplash.jpg"); */
+  background-image: url("pawel-czerwinski-uz4qt7utDD4-unsplash.jpg");
   background-repeat: no-repeat;
   background-color: #000;
   min-height: 100vh;
@@ -1279,3 +1279,4 @@ body::before {
     top: 10px;
   } */
 }
+
